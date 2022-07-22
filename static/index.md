@@ -1,6 +1,6 @@
 # About
 
-Add some information about your project here.
+6 Gang 30 Amps Latch Relays in DIN Rail enclosure. 6 Optron isolated inputs, 2 inputs for DS18b20 Dallas 1-Wire temperature sensors.  EspHomeReady.
 
 # Installation
 
