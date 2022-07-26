@@ -5,7 +5,7 @@
   "funding_url": "",
   "builds": [
     {
-      "chipFamily": "ESP32",
+      "chipFamily": "ESP32-S2",
       "parts": [
         { "path": "firmware/bootloader.bin", "offset": 4096 },
         { "path": "firmware/partition-table.bin", "offset": 32768 },
