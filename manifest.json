@@ -1,0 +1,17 @@
+{
+  "name": "6Gang 30Amps Latch Relay Esp Home Ready",
+  "version": "1.0",
+  "home_assistant_domain": "",
+  "funding_url": "",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        { "path": "firmware/bootloader.bin", "offset": 4096 },
+        { "path": "firmware/partition-table.bin", "offset": 32768 },
+        { "path": "firmware/ota_data_initial.bin", "offset": 53248 },
+        { "path": "firmware/firmware.bin", "offset": 65536 }
+      ]
+    }
+  ]
+}
