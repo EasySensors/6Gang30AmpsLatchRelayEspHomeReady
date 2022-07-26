@@ -1,37 +1,11 @@
-## Welcome to GitHub Pages
+# About
 
-You can use the [editor on GitHub](https://github.com/EasySensors/6Gang30AmpsLatchRelayEspHomeReady/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+6 Gang 30 Amps Latch Relays in DIN Rail enclosure. 6 Optron isolated inputs, 2 inputs for DS18b20 Dallas 1-Wire temperature sensors.  EspHomeReady.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+# Installation
 
-### Markdown
+You can use the button below to install the pre-built firmware directly to your device via USB from the browser.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<esp-web-install-button manifest="./manifest.json"></esp-web-install-button>
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/EasySensors/6Gang30AmpsLatchRelayEspHomeReady/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<script type="module" src="https://unpkg.com/esp-web-tools@8.0.3/dist/web/install-button.js?module"></script>
