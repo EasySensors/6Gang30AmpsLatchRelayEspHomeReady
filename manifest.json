@@ -8,7 +8,7 @@
       "chipFamily": "ESP32-S2",
       "parts": [
         { "path": "firmware/bootloader.bin", "offset": 4096 },
-        { "path": "firmware/partition-table.bin", "offset": 32768 },
+        { "path": "firmware/partitions.bin", "offset": 32768 },
         { "path": "firmware/ota_data_initial.bin", "offset": 53248 },
         { "path": "firmware/firmware.bin", "offset": 65536 }
       ]
