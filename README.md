@@ -1,19 +1,20 @@
-# About
-
 
 ### EPS32-S2 module based 6 Gang 30 Amps Latch Relays in DIN Rail enclosure. Best sutable for secure Home Automation, IOT. 
 
 
 ## Specification: ##
 
- - ESP32-S2 Matter ready
+ - ESP32-S2 Matter ready chipset
+ - Embedded IPX to SMA adapter, 3dBi antenna, any SMA Wi-Fi antenna can be used.
  - High quality power supply
- - USB type C programming\debug connector 
- - 6 x 30 Amper Latch Relays 
+ - USB type C programming\debug connector, on board CP2102 USB-TTL converter
+ - 6 x 30 Amper Latch Relays, zero current idle consumption, suitable for any type of loads
+ - 32A terminals, 10-22AWG, 4mm2
  - 6 x Optocoupled switch inputs
- - 2 x 10k pulled up Dallas temperature sensor pins
- - Supply voltage 160-240 Volts AC
- - The Digital and Analog pins are 3.3 volts
+ - 6 x Tact buttons + reset button
+ - 2 x 5k pulled up Dallas temperature sensor pins
+ - 6 x port LED's + 2 status LED's
+ - High quality power supply, input voltage 85-305 Volts AC
  - Plastic Enclosure Dimensions 150x106x42mm
  - Board Dimensions 147x87mm
 
@@ -65,12 +66,3 @@ SCL | 18
 
 >[The board schematics Pdf link](https://github.com/EasySensors/6Gang30AmpsLatchRelayEspHomeReady/blob/main/docs/ES%D0%9732_RELAYS_SCH_V1.PDF)
 
-
-
-# Installation
-
-You can use the button below to install the pre-built firmware directly to your device via USB from the browser.
-
-<esp-web-install-button manifest="manifest.json"></esp-web-install-button>
-
-<script type="module" src="https://unpkg.com/esp-web-tools@8.0.3/dist/web/install-button.js?module"></script>
