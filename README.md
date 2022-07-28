@@ -12,11 +12,23 @@
  - 32A terminals, 10-22AWG, 4mm2
  - 6 x Optocoupled switch inputs
  - 6 x Tact buttons + reset button
- - 2 x 5k pulled up Dallas temperature sensor pins
+ - 2 x  Dallas temperature sensor pins with 5 kilohm pull up resistors
  - 6 x port LED's + 2 status LED's
  - High quality power supply, input voltage 85-305 Volts AC
  - Plastic Enclosure Dimensions 150x106x42mm
  - Board Dimensions 147x87mm
+
+
+
+# Installation
+
+You can use the button below to install the pre-built firmware directly to your device via USB from the browser. ( visible from the web page https://easysensors.github.io/6Gang30AmpsLatchRelayEspHomeReady/ )
+
+
+<esp-web-install-button manifest="./manifest.json"></esp-web-install-button>
+
+<script type="module" src="https://unpkg.com/esp-web-tools@8.0.3/dist/web/install-button.js?module"></script>
+
 
 **Pin out:** 
  
