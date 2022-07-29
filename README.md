@@ -22,7 +22,7 @@
 ## Installation
 
 You can use the button below to install the pre-built firmware directly to your device via USB from the browser. 
->[the button  is visible from the 6Gang30AmpsLatchRelayEspHomeReady web page] https://easysensors.github.io/6Gang30AmpsLatchRelayEspHomeReady
+>[the button  is visible from the 6Gang30AmpsLatchRelayEspHomeReady web page](https://easysensors.github.io/6Gang30AmpsLatchRelayEspHomeReady)
 
 <esp-web-install-button manifest="./manifest.json"></esp-web-install-button>
 
