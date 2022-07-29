@@ -1,10 +1,5 @@
+
 ### EPS32-S2 module based 6 Gang 30 Amps Latch Relays in DIN Rail enclosure. Best sutable for secure Home Automation, IOT. 
-
-![6 Gang 30Amps Din Rail Latch Relay](https://github.com/EasySensors/6Gang30AmpsLatchRelayEspHomeReady/blob/main/docs/esp32_relays_din_rail_enclosure1.png?raw=true)?raw=true)
-![6 Gang 30Amps Din Rail Latch Relay](https://github.com/EasySensors/6Gang30AmpsLatchRelayEspHomeReady/blob/main/docs/esp32_relays_din_rail_enclosure2.png?raw=true)?raw=true)
-![6 Gang 30Amps Din Rail Latch Relay](https://github.com/EasySensors/6Gang30AmpsLatchRelayEspHomeReady/blob/main/docs/esp32_relays_bottom.png?raw=true)?raw=true)
-![6 Gang 30Amps Din Rail Latch Relay](https://github.com/EasySensors/6Gang30AmpsLatchRelayEspHomeReady/blob/main/docs/esp32_relays_top.png?raw=true)?raw=true)
-
 
 ## Specification 
 
@@ -21,8 +16,6 @@
  -  DIN rail plastic enclosure dimensions 150x106x42mm
  - Board Dimensions 147x87mm
 
-
-
 ## Installation
 
 You can use the button below to install the pre-built firmware directly to your device via USB from the browser. 
@@ -32,12 +25,19 @@ You can use the button below to install the pre-built firmware directly to your 
 
 <script type="module" src="https://unpkg.com/esp-web-tools@8.0.3/dist/web/install-button.js?module"></script>
 
+
 To tweak the YAML code in 6Gang30AmpsLatchRelay.yaml and burn it into the board 
 - follow instructions in the link below and install  ESPHome
 [ Installing ESPHome Manually](https://esphome.io/guides/installing_esphome.html)
 
 - compile and upload with command-line: 
  ```esphome run 6Gang30AmpsLatchRelay.yaml```
+
+
+![6 Gang 30Amps Din Rail Latch Relay](https://github.com/EasySensors/6Gang30AmpsLatchRelayEspHomeReady/blob/main/docs/esp32_relays_din_rail_enclosure1.png?raw=true)
+![6 Gang 30Amps Din Rail Latch Relay](https://github.com/EasySensors/6Gang30AmpsLatchRelayEspHomeReady/blob/main/docs/esp32_relays_din_rail_enclosure2.png?raw=true)
+![6 Gang 30Amps Din Rail Latch Relay](https://github.com/EasySensors/6Gang30AmpsLatchRelayEspHomeReady/blob/main/docs/esp32_relays_bottom.png?raw=true)
+![6 Gang 30Amps Din Rail Latch Relay](https://github.com/EasySensors/6Gang30AmpsLatchRelayEspHomeReady/blob/main/docs/esp32_relays_top.png?raw=true)
 
 
 ## Pin out:
