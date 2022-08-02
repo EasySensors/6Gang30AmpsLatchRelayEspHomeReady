@@ -35,10 +35,7 @@ To tweak the YAML code in 6Gang30AmpsLatchRelay.yaml and burn it into the board
 
 
 ![6 Gang 30Amps Din Rail Latch Relay](https://github.com/EasySensors/6Gang30AmpsLatchRelayEspHomeReady/blob/main/docs/esp32_relays_din_rail_enclosure1.jpg?raw=true)
-![6 Gang 30Amps Din Rail Latch Relay](https://github.com/EasySensors/6Gang30AmpsLatchRelayEspHomeReady/blob/main/docs/esp32_relays_din_rail_enclosure11.jpg?raw=true)
-![6 Gang 30Amps Din Rail Latch Relay](https://github.com/EasySensors/6Gang30AmpsLatchRelayEspHomeReady/blob/main/docs/esp32_relays_din_rail_enclosure12.jpg?raw=true)
-![6 Gang 30Amps Din Rail Latch Relay](https://github.com/EasySensors/6Gang30AmpsLatchRelayEspHomeReady/blob/main/docs/esp32_relays_din_rail_enclosure14.jpg?raw=true)
-![6 Gang 30Amps Din Rail Latch Relay](https://github.com/EasySensors/6Gang30AmpsLatchRelayEspHomeReady/blob/main/docs/esp32_relays_din_rail_enclosure15.jpg?raw=true)
+![6 Gang 30Amps Din Rail Latch Relay](https://github.com/EasySensors/6Gang30AmpsLatchRelayEspHomeReady/blob/main/docs/collage.jpg?raw=true)
 ![6 Gang 30Amps Din Rail Latch Relay](https://github.com/EasySensors/6Gang30AmpsLatchRelayEspHomeReady/blob/main/docs/esp32_relays_din_rail_enclosure4.jpg?raw=true)
 ![6 Gang 30Amps Din Rail Latch Relay](https://github.com/EasySensors/6Gang30AmpsLatchRelayEspHomeReady/blob/main/docs/esp32_relays_din_rail_enclosure2.jpg?raw=true)
 ![6 Gang 30Amps Din Rail Latch Relay](https://github.com/EasySensors/6Gang30AmpsLatchRelayEspHomeReady/blob/main/docs/esp32_relays_bottom.png?raw=true)
