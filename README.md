@@ -26,6 +26,10 @@ You can use the button below to install the pre-built firmware directly to your 
 <script type="module" src="https://unpkg.com/esp-web-tools@8.0.3/dist/web/install-button.js?module"></script>
 
 
+### Installation video
+
+https://user-images.githubusercontent.com/18707133/182823948-121f1ef6-083b-4721-bfba-ffdc3a942aeb.mp4
+
 To tweak the YAML code in 6Gang30AmpsLatchRelay.yaml and burn it into the board 
 - follow instructions in the link below and install  ESPHome
 [ Installing ESPHome Manually](https://esphome.io/guides/installing_esphome.html)
