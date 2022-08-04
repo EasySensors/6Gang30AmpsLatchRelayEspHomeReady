@@ -23,8 +23,10 @@ You can use the button below to install the pre-built firmware directly to your 
 
 <esp-web-install-button manifest="./manifest.json"></esp-web-install-button>
 
-<script type="module" src="https://unpkg.com/esp-web-tools@8.0.3/dist/web/install-button.js?module"></script>
 
+<video width="320" height="240" controls>
+  <source type="video/mp4" src="https://github.com/EasySensors/6Gang30AmpsLatchRelayEspHomeReady/blob/main/docs/Installation.mp4">
+</video>
 
 ### Installation video
 
