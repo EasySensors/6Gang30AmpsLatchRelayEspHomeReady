@@ -32,7 +32,7 @@ ota:
  
 # This isthe public location of this yaml file.
 dashboard_import:
-  package_import_url: github://github.com/EasySensors/6Gang30AmpsLatchRelayEspHomeReady/edit/main/6Gang30AmpsLatchRelay.yaml@main
+  package_import_url: github://EasySensors/6Gang30AmpsLatchRelayEspHomeReady/6Gang30AmpsLatchRelay.yaml@main
 
 #esp32_improv:
 #  authorizer: false
