@@ -26,6 +26,9 @@
  - Board Dimensions 147x87mm
 
 
+<div align="left">
+                <span><img src="made-for-esphome-black-on-transparent.svg"  width="225" height="123"></span>
+</div>
 
 ## Installation
 
