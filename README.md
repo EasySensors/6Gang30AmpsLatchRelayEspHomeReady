@@ -2,6 +2,10 @@
 ### ESP32-S2 module based 6 Gang 30 Amps Latch Relay in DIN Rail enclosure. Best sutable for secure Home Automation, IOT. 
 
 <button name="AliExpress" onclick="https://bit.ly/3cxwFMM">Click me</button> 
+
+[Click me](http://www.google.com){: .btn}
+
+
 ## Specification 
 
  - ESP32-S2 Matter ready chipset
