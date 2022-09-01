@@ -1,7 +1,7 @@
 <div align="right">
 	<br>
 	<a href="https://www.aliexpress.com/item/3256804487808973.html">
-		<img src="ali_buy_btn.png"  alt="Click to buy from Aliexpress">
+		<img src="docs/ali_buy_btn.png"  alt="Click to buy from Aliexpress">
 	</a>
 	<br>
 </div>
@@ -27,7 +27,7 @@
 
 
 <div align="left">
-                <span><img src="made-for-esphome-black-on-transparent.svg"  width="225" height="123"></span>
+                <span><img src="docs/made-for-esphome-black-on-transparent.svg"  width="225" height="123"></span>
 </div>
 
 ## Installation
