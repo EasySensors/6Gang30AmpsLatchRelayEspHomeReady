@@ -6,7 +6,7 @@
 	<br>
 </div>
 
-
+<a href="https://www.tindie.com/products/easysensors/esp32-s2-din-rail-6-gang-30-amps-latch-relay/?ref=offsite_badges&utm_source=sellers_easySensors&utm_medium=badges&utm_campaign=badge_large"><img src="https://d2ss6ovg47m0r5.cloudfront.net/badges/tindie-larges.png" alt="I sell on Tindie" width="200" height="104"></a>
 
 ### ESP32-S2 module based 6 Gang 30 Amps Latch Relay in DIN Rail enclosure. Best sutable for secure Home Automation, IOT. 
 
