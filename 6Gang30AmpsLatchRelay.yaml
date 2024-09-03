@@ -22,7 +22,8 @@ preferences:
 
 # Enable logging
 logger:
-
+  hardware_uart : UART0
+  
 # Enable Home Assistant API
 api:
   password: ""
