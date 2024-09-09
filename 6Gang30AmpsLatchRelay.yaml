@@ -28,8 +28,6 @@ logger:
 api:
   password: ""
 
-ota:
-  password: ""
  
 # This isthe public location of this yaml file.
 dashboard_import:
@@ -39,8 +37,8 @@ dashboard_import:
 #  authorizer: false
 
 wifi:
-  ssid: ""
-  password: ""
+  ssid: "Some_ssid"
+  password: "somePassword"
   #use_address: "192.168.1.88"
 
 
@@ -116,7 +114,8 @@ interval:
 
 # DS18b20 temperature sensors pins GPIO40 and  GPIO41
 
-# https://esphome.io/components/sensor/dallas.html
+# https://esphome.io/components/sensor/dallas_temp.html
+# https://esphome.io/components/one_wire.html
 # It is highly recommended to use the address attribute for creating 
 # dallas sensors, because if you have multiple sensors on a bus and 
 # the automatic sensor discovery fails, all sensors indices 
@@ -124,19 +123,21 @@ interval:
 # simply start the firmware on your device with a configured dallas hub 
 # and observe the log output (the log level must be set to at least debug!).
 
-dallas:
-  - pin: GPIO40
-    update_interval: 300s
+# Uncomment one_wire: and sensor: sections if you like to use DS18b20 dallas temperaturesensors
+#one_wire:
+#  - pin: GPIO40
+#    platform: gpio
 
 # Individual sensors  
-# Comment out the section below if you need to find out your actual DS18b20 addreses in the log
-sensor:
-  - platform: dallas
-    internal: false
-    address: 0x4300000BE7C17F28
-    name: "Living Room Temperature"
-    filters:
-      - filter_out: nan
+# to identify sensor address comment out the section below and find the addreses in the USB debug log 
+#sensor:
+#  - platform: dallas_temp
+#    internal: false
+#    address: 0x4300000BE7C17F28
+#    name: "Sauna Temperature Dallas"
+#    update_interval: 30s
+#    filters:
+#      - filter_out: nan
     
 
 switch:
@@ -187,7 +188,7 @@ switch:
 
   - platform: template
     name: "Latch relay switch 1"
-    restore_state: true
+    restore_mode: "RESTORE_DEFAULT_OFF"
     id: latch_switch1
     turn_on_action:
       - switch.template.publish:
@@ -233,7 +234,7 @@ switch:
 
   - platform: template
     name: "Latch relay switch 2"
-    restore_state: true
+    restore_mode: "RESTORE_DEFAULT_OFF"
     id: latch_switch2
     turn_on_action:
       - switch.template.publish:
@@ -279,7 +280,7 @@ switch:
 
   - platform: template
     name: "Latch relay switch 3"
-    restore_state: true
+    restore_mode: "RESTORE_DEFAULT_OFF"
     id: latch_switch3
     turn_on_action:
       - switch.template.publish:
@@ -325,7 +326,7 @@ switch:
 
   - platform: template
     name: "Latch relay switch 4"
-    restore_state: true
+    restore_mode: "RESTORE_DEFAULT_OFF"
     id: latch_switch4
     turn_on_action:
       - switch.template.publish:
@@ -371,7 +372,7 @@ switch:
 
   - platform: template
     name: "Latch relay switch 5"
-    restore_state: true
+    restore_mode: "RESTORE_DEFAULT_OFF"
     id: latch_switch5
     turn_on_action:
       - switch.template.publish:
@@ -417,7 +418,7 @@ switch:
 
   - platform: template
     name: "Latch relay switch 6"
-    restore_state: true
+    restore_mode: "RESTORE_DEFAULT_OFF"
     id: latch_switch6
     turn_on_action:
       - switch.template.publish:
