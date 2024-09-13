@@ -1,6 +1,6 @@
 {
   "name": "The relay prebuild firmware",
-  "version": "1.0",
+  "version": "1.1",
   "home_assistant_domain": "",
   "funding_url": "",
   "builds": [
