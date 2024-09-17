@@ -1,0 +1,13 @@
+{
+  "chipFamily": "ESP32-S2",
+  "ota": {
+    "path": "6gang_relay-esp32s2/6gang_relay-esp32s2.ota.bin",
+    "md5": "ce2719b132f7f035e0f0a8bc70f9abb5"
+  },
+  "parts": [
+    {
+      "path": "6gang_relay-esp32s2/6gang_relay-esp32s2.factory.bin",
+      "offset": 0
+    }
+  ]
+}

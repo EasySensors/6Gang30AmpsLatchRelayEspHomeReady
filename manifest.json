@@ -1,13 +1,20 @@
 {
-  "name": "The relay prebuild firmware",
-  "version": "1.1",
-  "home_assistant_domain": "",
-  "funding_url": "",
+  "name": "6Gang30AmpsLatchRelayEspHomeReady",
+  "version": "",
+  "home_assistant_domain": "esphome",
+  "new_install_skip_erase": false,
   "builds": [
     {
       "chipFamily": "ESP32-S2",
+      "ota": {
+        "path": "6gang_relay-esp32s2/6gang_relay-esp32s2.ota.bin",
+        "md5": "ce2719b132f7f035e0f0a8bc70f9abb5"
+      },
       "parts": [
-        { "path": "firmware/merged-firmware.bin", "offset": 0 }
+        {
+          "path": "6gang_relay-esp32s2/6gang_relay-esp32s2.factory.bin",
+          "offset": 0
+        }
       ]
     }
   ]
